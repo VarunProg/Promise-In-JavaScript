@@ -7,3 +7,8 @@ let myPromise = new Promise(function (resolve, reject) {
     //reject(); this reject is called when promise is not fullfilled like some error occured
 
 })
+
+//Example of promise
+var promise = new Promise(function (resolve, reject) {
+    
+    )};
