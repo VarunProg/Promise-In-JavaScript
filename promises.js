@@ -10,5 +10,11 @@ let myPromise = new Promise(function (resolve, reject) {
 
 //Example of promise
 var promise = new Promise(function (resolve, reject) {
-    
+    const x = 1;
+    const y = 1;
+    if (x === y) {
+        resolve();
+    } else {
+        reject();
+    }
     )};
