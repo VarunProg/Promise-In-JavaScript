@@ -20,4 +20,6 @@ var promise = new Promise(function (resolve, reject) {
     )};
 promise.then(function () {
     console.log('Success, Promise is resolved');
-})
+}).catch(function () {
+    console.log('Some error has occurred');
+}); 
