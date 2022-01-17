@@ -18,3 +18,6 @@ var promise = new Promise(function (resolve, reject) {
         reject();
     }
     )};
+promise.then(function () {
+    console.log('Success, Promise is resolved');
+})
